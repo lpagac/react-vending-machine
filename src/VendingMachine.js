@@ -12,11 +12,14 @@ import { Link } from "react-router-dom";
 function VendingMachine() {
   return (
     <div className="VendingMachine">
-      <ul className="VendingMachine-list">
-        <li><Link path="/chips">Chips</Link></li>
-        <li><Link path="/cheetos">Cheetos</Link></li>
-        <li><Link path="/soda">Soda</Link></li>
-      </ul>
+      <div className="VendingMachine-machine">
+        <iframe src="https://giphy.com/embed/TrcQjNKDyPx7y" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen title="vending-machine"></iframe>
+      </div>
+      <div className="VendingMachine-list">
+        <p><Link to="/chips">Chips</Link></p>
+        <p><Link to="/cheetos">Cheetos</Link></p>
+        <p><Link to="/soda">Soda</Link></p>
+      </div>
     </div>
   )
 }

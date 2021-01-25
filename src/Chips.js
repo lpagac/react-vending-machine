@@ -13,8 +13,8 @@ function Chips() {
   return (
     <div className="Chips">
       <h1 className="Chips-title">Chips</h1>
-      <iframe src="https://giphy.com/embed/WpToCsBQuIopU4L4Ij" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/salsaritas-chips-tortilla-and-salsa-WpToCsBQuIopU4L4Ij"></a></p>
-      <p><Link path="/">Go back</Link></p>
+      <iframe src="https://giphy.com/embed/WpToCsBQuIopU4L4Ij" width="480" height="480" frameBorder="0" allowFullScreen title="chips"></iframe>
+      <p><Link to="/">Go back</Link></p>
     </div>
   )
 }
